@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  background-color: rgb(255, 230, 0);
+}
+body {
+  cursor: cell;
+}
+header {
+  width: 100%;
+  height: 170px;
+  background-color: #ffcc00;
+}
+.UP {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  margin-top: 25rem;
+  margin-left: 93%;
+  z-index: 100;
+  border-radius: 10px;
+  position: fixed;
+}
+.up-icons {
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.UP:hover {
+  background-color: rgb(255, 59, 59);
+}
+.logo {
+  height: 110px;
+  margin-left: 20px;
+}
+.nav-links li {
+  display: inline-block;
+  margin: 0 2px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2c3136;
+  margin-left: 20px;
+}
+a:hover,
+a:active {
+  color: rgb(255, 0, 0);
+}
+
+.chamosashleli_gilaki {
+  background-color: #ffcc00;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  margin-left: 290px;
+  margin-top: -50px;
+  width: 130px;
+}
+.chamosashleli_gilaki a {
+  text-decoration: none;
+  color: #2c3136;
+  font-weight: 700;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.asarcheviElementebi {
+  margin-left: 290px;
+  display: none;
+  position: absolute;
+  background-color: #ffcc00;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.asarcheviElementebi a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.asarcheviElementebi a:hover {
+  background-color: rgb(240, 240, 147);
+}
+
+.dropdown:hover .asarcheviElementebi {
+  display: block;
+}
+.dropdown:hover .chamosashleli_gilaki {
+  background-color: rgb(240, 240, 147);
+}
+.Photo-of-a-man {
+  position: absolute;
+  width: 100%;
+}
+.Track-txt {
+  font-size: 25px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-left: 450px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.search {
+  position: absolute;
+  margin-left: 450px;
+  height: 55px;
+  width: 380px;
+  margin-top: 60px;
+  border: solid 0px;
+  border-radius: 5px;
+}
+.track-button {
+  height: 55px;
+  width: 100px;
+  position: absolute;
+  margin-left: 833px;
+  margin-top: 60px;
+  background-color: red;
+  border: solid 0px;
+}
+.track-button:hover {
+  background-color: rgb(252, 66, 66);
+}
+.p-track {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.conteiner {
+  position: absolute;
+  width: 49.7%;
+  height: 150px;
+  margin-left: 5px;
+  background-color: rgb(250, 245, 245);
+  border-radius: 5px;
+  margin-top: 350px;
+  margin-left: 300px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.ship-now {
+  width: 32.8%;
+  height: 100%;
+  border: solid 0px;
+  display: inline-block;
+  padding: 0px;
+  background-image: url();
+}
+.ship-now:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.calendar {
+  height: 40px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.p-ship {
+  color: rgb(8, 8, 8);
+  margin-left: 70px;
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 60px;
+  position: absolute;
+}
+.p-ship:hover {
+  color: red;
+}
+.p-ship2:hover {
+  color: red;
+}
+.p-ship3:hover {
+  color: red;
+}
+.p-find {
+  color: grey;
+  font-size: smaller;
+  font-weight: 100;
+  margin-left: 50px;
+  margin-top: 90px;
+  position: absolute;
+}
+.p-ship2 {
+  color: rgb(8, 8, 8);
+  margin-left: 50px;
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 60px;
+  position: absolute;
+}
+.p-find2 {
+  color: grey;
+  font-size: smaller;
+  font-weight: 100;
+  margin-left: 15px;
+  margin-top: 90px;
+  position: absolute;
+}
+.p-ship3 {
+  color: rgb(8, 8, 8);
+  margin-left: 60px;
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 60px;
+  position: absolute;
+}
+.covid {
+  height: 50px;
+  background-color: rgb(211, 207, 207);
+  width: 92%;
+  margin-top: 570px;
+  margin-left: 50px;
+}
+.covid-19 {
+  background-color: red;
+  height: 100%;
+  width: 10px;
+}
+.covid-txt {
+  color: red;
+  margin-left: 30px;
+  margin-top: -35px;
+  font-weight: 700;
+}
+.covid-txt a {
+  color: red;
+}
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.conteiner2 {
+  position: relative;
+}
+.Warehouse {
+  border: solid 1px gray;
+  width: 400px;
+  margin-left: 35px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 5px;
+  height: 400px;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.Warehouse-img {
+  height: 50%;
+}
+.Warehouse-img:hover {
+  transform: scale(1.09);
+  transition: 0.3s ease-in-out;
+}
+.p-Werehause {
+  font-size: 26px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.links {
+  color: red;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.links a {
+  color: red;
+  font-weight: 700;
+  margin-top: 10px;
+}
+h5 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800;
+  color: rgb(177, 1, 1);
+}
+h2 {
+  text-align: center;
+  color: #2c3136;
+}
+.links2 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.links2 a {
+  color: rgb(177, 1, 1);
+}
+.line {
+  width: 40%;
+  border: solid 2px gray;
+  margin-left: 400px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.green-img {
+  width: 95%;
+  margin-left: 30px;
+}
+.gamwirvale-divi {
+  height: 407px;
+  width: 400px;
+  margin-left: 30px;
+  background-color: hsla(0, 0%, 100%, 0.616);
+  position: absolute;
+  margin-top: -411px;
+}
+.green-txt {
+  color: rgb(8, 8, 8);
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.big-txt {
+  margin-left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-right: 10px;
+}
+.More {
+  background-color: rgb(233, 14, 14);
+  height: 45px;
+  width: 100px;
+  border: solid 0px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.More:hover {
+  background-color: rgb(255, 56, 56);
+}
+.L-M {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+footer {
+  width: 100%;
+  height: 170px;
+  background-color: #cacaca;
+}
+h3 {
+  margin-left: 20px;
+}
+.footer-links li {
+  display: inline-block;
+  margin: 0 2px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.footer-links a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: rgb(97, 97, 97);
+}
+h4 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* რისპონსივი */
+
+@media all and (max-width: 960px) {
+  header {
+    width: 100%;
+  }
+  .Photo-of-a-man {
+    margin-top: 0px;
+  }
+  .nav-links li {
+    margin-top: -15px;
+  }
+  .chamosashleli_gilaki {
+    visibility: hidden;
+  }
+  .search {
+    margin-left: 20px;
+    width: 320px;
+  }
+  .track-button {
+    margin-left: 350px;
+  }
+  .Track-txt {
+    visibility: hidden;
+  }
+  .conteiner {
+    margin-left: 50px;
+    width: 600px;
+  }
+  .gamwirvale-divi {
+    visibility: hidden;
+  }
+}
+
+@media all and (max-width: 640px) {
+  header {
+    width: 100%;
+  }
+  .Photo-of-a-man {
+    margin-top: 0px;
+  }
+  .nav-links li {
+    margin-top: -15px;
+  }
+
+  .search {
+    margin-left: 20px;
+    width: 320px;
+  }
+  .track-button {
+    visibility: hidden;
+  }
+  .Track-txt {
+    visibility: hidden;
+  }
+  .conteiner {
+    visibility: hidden;
+  }
+  .UP {
+    visibility: hidden;
+  }
+  .covid {
+    margin-top: 200px;
+  }
+  .gamwirvale-divi {
+    visibility: hidden;
+  }
+  .line {
+    visibility: hidden;
+  }
+}
+@media all and (max-width: 320px) {
+  header {
+    width: 100%;
+  }
+  .Photo-of-a-man {
+    margin-top: 0px;
+  }
+  .nav-links li {
+    margin-top: -15px;
+  }
+
+  .search {
+    margin-left: 20px;
+    width: 320px;
+  }
+  .track-button {
+    visibility: hidden;
+  }
+  .Track-txt {
+    visibility: hidden;
+  }
+  .conteiner {
+    visibility: hidden;
+  }
+  .UP {
+    visibility: hidden;
+  }
+  .covid {
+    margin-top: 200px;
+  }
+  .line {
+    visibility: hidden;
+  }
+}
